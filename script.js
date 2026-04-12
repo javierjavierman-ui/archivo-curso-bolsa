@@ -391,19 +391,17 @@ function openModal(mod, num) {
                         </ul>
                     </div>
                 </div>
-                ${lesson.image ? `
-                <div class="infographic-image-section">
-                    <div class="infographic-image-label"><i class="fa-solid fa-image"></i> Infografía visual de repaso</div>
-                    <img src="${lesson.image}" alt="Infografía: ${lesson.title}" loading="lazy">
-                </div>
-                ` : ''}
-                ${lesson.image2 ? `
-                <div class="infographic-image-section" style="margin-top: 0;">
-                    <div class="infographic-image-label"><i class="fa-solid fa-image"></i> Segunda infografía: contexto avanzado</div>
-                    <img src="${lesson.image2}" alt="Infografía detalle: ${lesson.title}" loading="lazy">
-                </div>
-                ` : ''}
                 <div class="infographic-footer">
+                    ${lesson.image ? `
+                    <button class="infografia-btn" onclick="openLightbox('${lesson.image}', '${lesson.title}')">
+                        <i class="fa-solid fa-chart-bar"></i> Infografía de repaso
+                    </button>
+                    ` : ''}
+                    ${lesson.image2 ? `
+                    <button class="infografia-btn infografia-btn--alt" onclick="openLightbox('${lesson.image2}', '${lesson.title} — contexto avanzado')">
+                        <i class="fa-solid fa-chart-bar"></i> Infografía de repaso (II)
+                    </button>
+                    ` : ''}
                     <a href="pdfs/${lesson.file}" target="_blank" class="pdf-btn">
                         <i class="fa-solid fa-file-pdf"></i> Estudiar PDF original
                     </a>
@@ -480,4 +478,33 @@ navBtns.forEach(btn => {
 document.addEventListener("DOMContentLoaded", () => {
     renderRoadmap();
     updateProgressDashboard();
+});
+
+// === Lightbox para infografías ===
+function openLightbox(src, title) {
+    const lb = document.getElementById("lightbox-overlay");
+    const img = document.getElementById("lightbox-img");
+    const cap = document.getElementById("lightbox-caption");
+    img.src = src;
+    cap.textContent = title;
+    lb.classList.add("active");
+    document.body.style.overflow = "hidden";
+}
+
+function closeLightbox() {
+    const lb = document.getElementById("lightbox-overlay");
+    lb.classList.remove("active");
+    document.body.style.overflow = "";
+    // Reset src after transition
+    setTimeout(() => { document.getElementById("lightbox-img").src = ""; }, 300);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    const lb = document.getElementById("lightbox-overlay");
+    lb.addEventListener("click", (e) => {
+        if (e.target === lb) closeLightbox();
+    });
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeLightbox();
+    });
 });
