@@ -8,6 +8,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Introducción a la Bolsa", file: "uned_01_Bolsa.pdf", icon: "fa-building-columns", 
+                image: "infografias/fundamentos_bolsa.png",
                 infographic: { color: "blue", stat: "101", idea: "Fundamentos Base", points: [
                     { t: "Definición de Mercado de Valores", d: "Plataforma física y virtual donde compradores y vendedores negocian porciones de empresas. Su función es dotar de liquidez a las acciones y transparencia a los precios." },
                     { t: "Financiación de la Economía Real", d: "La bolsa canaliza el ahorro de particulares e instituciones hacia proyectos empresariales concretos, permitiendo el crecimiento industrial y tecnológico del país." },
@@ -16,6 +17,7 @@ const curriculumData = [
             },
             { 
                 title: "Guía Renta 4", file: "uned_00_Guia_Bolsa_Renta4.pdf", icon: "fa-book", 
+                image: "infografias/guia_renta4.png",
                 infographic: { color: "indigo", stat: "R4", idea: "Primeros Pasos", points: [
                     { t: "Mecánica Operativa Básica", d: "Pasos prácticos para abrir una cuenta de valores, transferir fondos y asegurar que el intermediario (broker) esté regulado." },
                     { t: "Errores del Inversor Novato", d: "Caer en el pánico durante las caídas de mercado, invertir dinero que se necesita a corto plazo o dejarse llevar por rumores periodísticos sin fundamento." },
@@ -24,6 +26,7 @@ const curriculumData = [
             },
             { 
                 title: "Tolerancia al Riesgo", file: "cbolsa_tolerancia_al_riesgo.pdf", icon: "fa-scale-balanced", 
+                image: null,
                 infographic: { color: "red", stat: "R", idea: "Psicología Inversora", points: [
                     { t: "Aversión vs Propensión al Riesgo", d: "Grado de sufrimiento psicológico que le causa a una persona ver temporalmente su cartera en números rojos. Determina la composición ideal de sus inversiones." },
                     { t: "Perfiles de Idoneidad", d: "Clasificación general en Conservador (busca protección), Moderado (equilibro crecimiento-seguridad) y Agresivo (asume gran volatilidad por alta rentabilidad)." },
@@ -48,6 +51,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Bolsas y Mercados (BME)", file: "uned_02_BME.pdf", icon: "fa-flag", 
+                image: "infografias/mercado_continuo_sibe.png",
                 infographic: { color: "yellow", stat: "BME", idea: "Mercado Ibérico", points: [
                     { t: "Estructura Operativa Española", d: "BME agrupa a las cuatro bolsas nacionales (Madrid, Barcelona, Bilbao y Valencia) integrándolas bajo tecnología unificada." },
                     { t: "Mercado Continuo (SIBE)", d: "El Sistema de Interconexión Bursátil Español. Un gran ordenador central que cruza las compras y ventas nacionales a tiempo real y sin parones de 9:00 a 17:30." },
@@ -56,6 +60,7 @@ const curriculumData = [
             },
             { 
                 title: "Euronext", file: "uned_04_Euronext.pdf", icon: "fa-earth-europe", 
+                image: "infografias/euronext_mercado.png",
                 infographic: { color: "blue", stat: "EU", idea: "Cruce de Fronteras", points: [
                     { t: "Consorcio Bursátil Paneuropeo", d: "Euronext nació como la alianza de varias bolsas locales (Francia, Holanda, Bélgica, Portugal) para competir por liquidez y eficiencia a escala global." },
                     { t: "Acceso Internacional Unificado", d: "Invertir en una empresa en París es operativamente idéntico a una en Ámsterdam, usando de marco una moneda (Euro) y normas armonizadas europeas." },
@@ -64,6 +69,7 @@ const curriculumData = [
             },
             { 
                 title: "Euronext España", file: "uned_04_Euronext_Spain.pdf", icon: "fa-location-dot", 
+                image: "infografias/euronext_tech_espana.png",
                 infographic: { color: "orange", stat: "ES", idea: "Influencia Local", points: [
                     { t: "Mercado Alternativo Pyme", d: "Nicho especializado para que empresas tecnológicas y start-ups de la Península logren financiarse institucionalmente sin el altísimo coste regulatorio de la bolsa grande." },
                     { t: "Atracción de Capital Extranjero", d: "Cómo Euronext funge de pasarela internacional para que los fondos de pensiones americanos inviertan más fácilmente en proyectos hispanos emergentes." },
@@ -72,6 +78,7 @@ const curriculumData = [
             },
             { 
                 title: "La CNMV", file: "uned_05_CNMV.pdf", icon: "fa-gavel", 
+                image: "infografias/cnmv_proteccion.png",
                 infographic: { color: "green", stat: "Ley", idea: "Supervisión", points: [
                     { t: "Policía de los Mercados", d: "Autoridad adscrita a Economía que vela rigurosamente porque las empresas informen puntualmente de todo hecho (bueno o malo) que afecte su valor." },
                     { t: "Protección Contra Chiringuitos", d: "Mantienen alertas negras sobre brókers ilegales que estafan utilizando marketing engañoso en redes, protegiendo al ahorrador ingenuo." },
@@ -88,6 +95,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Salidas a Bolsa (OPV)", file: "uned_03_Salidas_a_Bolsa.pdf", icon: "fa-rocket", 
+                image: "infografias/salida_bolsa_recoletos.png",
                 infographic: { color: "pink", stat: "OPV", idea: "Nace la Acción", points: [
                     { t: "Oferta Pública de Venta", d: "Es la ceremonia financiera donde los dueños primigenios de la empresa privada ceden por primera vez porcentaje de sus acciones a los ciudadanos." },
                     { t: "Fijación del Precio 'Target'", d: "Bancos de inversión (Colocadores) tantean en un periodo secreto el apetito de las grandes fortunas para establecer a qué precio inicial se estrenará la acción." },
@@ -96,6 +104,7 @@ const curriculumData = [
             },
             { 
                 title: "Guía del Accionista (MiFID)", file: "uned_04_Guia_Accionistas.pdf", icon: "fa-users", 
+                image: "infografias/mifid_proteccion_inversor.png",
                 infographic: { color: "blue", stat: "MiFID", idea: "Protección Europea", points: [
                     { t: "Directiva MiFID", d: "Ley europea radical que obligó a los bancos a hacer un riguroso test de conveniencia antes de dejar a Manolo, de 80 años, comprar derivados exóticos." },
                     { t: "Clasificación de Clientes", d: "Los bancos te etiquetan legalmente como: Minorista (totalmente protegido por avisos legales), Profesional, o Contraparte Elegible (instituciones que asumen total riesgo propio)." },
@@ -104,6 +113,8 @@ const curriculumData = [
             },
             { 
                 title: "Órdenes y Subastas", file: "uned_06_Guia_Ordenes.pdf", icon: "fa-gavel", 
+                image: "infografias/ordenes_telefonica.png",
+                image2: "infografias/sibe_volatilidad_subastas.png",
                 infographic: { color: "orange", stat: "O/S", idea: "Ejecución Eficaz", points: [
                     { t: "Orden Limitada", d: "La regla de oro del inversor responsable. Especificas el precio MÁXIMO que estás dispuesto a pagar. Si la acción está más cara, no compras nada protegiendo tu dinero." },
                     { t: "Orden a Mercado / Por lo Mejor", d: "A mercado compras lo que haya, sin importar precio (altísimo riesgo de sobreprecio en pánico). Por lo mejor barren solo un rango del libro contiguo." },
@@ -112,6 +123,7 @@ const curriculumData = [
             },
             { 
                 title: "Operativa Práctica", file: "uned_06_Bolsa_operativa.pdf", icon: "fa-cash-register", 
+                image: "infografias/operativa_ordenes_costes.png",
                 infographic: { color: "purple", stat: "Ej.", idea: "Trinchera de Bolsa", points: [
                     { t: "Lectura del 'Depth of Book'", d: "Visualizar que en 12.45€ hay 50 mil acciones vendiéndose, y en 12.44€ hay 20 mil comprando, revelando las barreras invisibles a corto plazo." },
                     { t: "Gestión de las Comisiones", d: "Optimizar el número de operaciones, ya que un porcentaje desmedido en comisión del banco arruina matemáticamente por completo inversiones de poco capital." },
@@ -120,6 +132,7 @@ const curriculumData = [
             },
             { 
                 title: "Simulador de Bolsa", file: "uned_07_Simulador_de_Bolsa.pdf", icon: "fa-gamepad", 
+                image: "infografias/simulador_bolsa.png",
                 infographic: { color: "green", stat: "0€", idea: "Paper Trading", points: [
                     { t: "Inversión Ficticia en Vivo", d: "Herramientas que beben datos calcados del mercado real simultáneamente, pero usas 'monedas falsas'. Evita la sangría financiera novata." },
                     { t: "Prueba General de Sistema", d: "Permite testear fríamente (sin ansiedad de pérdida) la validez estadística de tus sistemas de inversión en tendencias largas o picos puntuales." },
@@ -136,6 +149,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Renta Fija Conceptual", file: "uned_08_rfija.pdf", icon: "fa-money-bill-wave", 
+                image: "infografias/renta_fija_basica.png",
                 infographic: { color: "teal", stat: "RF", idea: "Menos Riesgo", points: [
                     { t: "Obligaciones del Emisor", d: "Tanto un Estado como una compañía piden prestado al ciudadano. Legalmente deben devolver tu principal a los 'X' años de vencimiento prometido." },
                     { t: "El Pago del Cupón", d: "La compensación regular (anual o semestral) por haberles cedido liquidez, dictado por el porcentaje de la emisión en contrato." },
@@ -377,6 +391,18 @@ function openModal(mod, num) {
                         </ul>
                     </div>
                 </div>
+                ${lesson.image ? `
+                <div class="infographic-image-section">
+                    <div class="infographic-image-label"><i class="fa-solid fa-image"></i> Infografía visual de repaso</div>
+                    <img src="${lesson.image}" alt="Infografía: ${lesson.title}" loading="lazy">
+                </div>
+                ` : ''}
+                ${lesson.image2 ? `
+                <div class="infographic-image-section" style="margin-top: 0;">
+                    <div class="infographic-image-label"><i class="fa-solid fa-image"></i> Segunda infografía: contexto avanzado</div>
+                    <img src="${lesson.image2}" alt="Infografía detalle: ${lesson.title}" loading="lazy">
+                </div>
+                ` : ''}
                 <div class="infographic-footer">
                     <a href="pdfs/${lesson.file}" target="_blank" class="pdf-btn">
                         <i class="fa-solid fa-file-pdf"></i> Estudiar PDF original
