@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeniorsBolsaAcademy en IAparaseniors | Mapa de Aprendizaje</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="app-header">
+        <div class="logo">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>SeniorsBolsaAcademy en IAparaseniors</span>
+        </div>
+        <nav>
+            <button class="nav-btn active" data-view="mapa"><i class="fa-solid fa-sitemap"></i> Mapa Mental</button>
+            <button class="nav-btn" data-view="progreso"><i class="fa-solid fa-chart-pie"></i> Progreso</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="intro-section" id="main-intro">
+            <h1>Bienvenido a tu <span>Ruta Financiera</span></h1>
+            <p>Explora el mapa del curso. Haz clic en cada módulo para desplegar los conocimientos y resúmenes asociados.</p>
+        </section>
+
+        <!-- Contenedor del mapa/ruta de aprendizaje -->
+        <div class="roadmap" id="roadmap-container">
+            <!-- Los módulos se inyectarán dinámicamente con JavaScript -->
+        </div>
+
+        <!-- Contenedor de Progreso (Oculto inicialmente) -->
+        <div id="progreso-container" style="display: none; padding: 2rem 0;">
+            <div class="progress-header">
+                <h2>Tu Historial de Inversor</h2>
+                <p>La constancia es la mejor estrategia. Marca los módulos que ya dominas a tu propio ritmo.</p>
+            </div>
+            
+            <div class="progress-dashboard">
+                <div class="progress-stats">
+                    <div class="circular-progress" id="circular-progress">
+                        <div class="inner-circle">
+                            <span id="progress-percentage">0%</span>
+                        </div>
+                    </div>
+                    <div class="progress-text-info">
+                        <h3 id="progress-text-modulos">0 de 7 Módulos</h3>
+                        <p>Nivel actual: <strong id="user-level" style="color: var(--primary);">Novato Financiero</strong></p>
+                    </div>
+                </div>
+
+                <div class="badges-grid" id="badges-grid">
+                    <!-- Insignias generadas por JS -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Modal para las lecciones -->
+    <div class="modal" id="lesson-modal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <span class="modal-badge">Módulo 1</span>
+                <h2 id="modal-title">Título del Módulo</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modal-desc">Descripción del módulo.</p>
+                <div class="lessons-list" id="modal-lessons">
+                    <!-- Las lecciones correspondientes -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
