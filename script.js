@@ -96,6 +96,7 @@ const curriculumData = [
             { 
                 title: "Salidas a Bolsa (OPV)", file: "uned_03_Salidas_a_Bolsa.pdf", icon: "fa-rocket", 
                 image: "infografias/salida_bolsa_recoletos.png",
+                image2: "infografias/salida_bolsa_recoletos_2.png",
                 infographic: { color: "pink", stat: "OPV", idea: "Nace la Acción", points: [
                     { t: "Oferta Pública de Venta", d: "Es la ceremonia financiera donde los dueños primigenios de la empresa privada ceden por primera vez porcentaje de sus acciones a los ciudadanos." },
                     { t: "Fijación del Precio 'Target'", d: "Bancos de inversión (Colocadores) tantean en un periodo secreto el apetito de las grandes fortunas para establecer a qué precio inicial se estrenará la acción." },
@@ -166,6 +167,7 @@ const curriculumData = [
             },
             { 
                 title: "Arquitectura Financiera", file: "uned_09_Asesoramiento.pdf", icon: "fa-handshake", 
+                image: "infografias/asesoramiento_financiero.png",
                 infographic: { color: "blue", stat: "Pro", idea: "El Asesor 360", points: [
                     { t: "Planificación Holística", d: "No es adivinar qué acción rompe gráficos, sino estructurar las herencias mortuorias, los ahorros infantiles y la fiscalidad en una hoja de ruta total." },
                     { t: "Mandato Discrecional", d: "Contratos estrictos por los cuales cedes (o no explícitamente) a un comité ciego el pulsar el botón de vender en las acciones para salvar tu estrés emocional en hecatombes." },
@@ -182,6 +184,8 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Análisis Técnico", file: "uned_10_atecnico.pdf", icon: "fa-chart-line", 
+                image: "infografias/fundamentos_analisis_tecnico.jpg",
+                image2: "infografias/analisis_tecnico_trading.jpg",
                 infographic: { color: "orange", stat: "AT", idea: "Sigue al Precio", points: [
                     { t: "Descuento Universal de la Gráfica", d: "Precepto central del Dow Jones. Se da por hecho que el gráfico actual ya contiene y ha tasado todo lo sabido: guerras, malas ganancias pasadas y pandemias en línea." },
                     { t: "Tendencias y Resistencias", d: "Reconocimiento empírico de que los mercados suben en escalera. Hay techos psicológicos invisibles al alza (resistencias) que si se cruzan, disparan compras automáticas masivas sistemáticas." },
@@ -190,6 +194,7 @@ const curriculumData = [
             },
             { 
                 title: "Análisis Fundamental", file: "uned_13_intro_afundamental.pdf", icon: "fa-file-invoice-dollar", 
+                image: "infografias/analisis_fundamental.jpg",
                 infographic: { color: "green", stat: "AF", idea: "Tripas del Negocio", points: [
                     { t: "Valor Exacto vs. Precio Variable", d: "El dogma del 'Value Investing'. El AF clama que su valor contable (lo que te devuelve quebrando) suele ser distinto al irracional precio que te marca fugazmente tu bróker." },
                     { t: "Balances y Fichas", d: "Activo - Pasivo = Patrimonio. Evaluar severamente en las oficinas que no haya deudas agobiantes insostenibles al tipo de interés que viene a corto plazo." },
@@ -214,6 +219,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Derivados BME (MEFF)", file: "uned_15_derivados.pdf", icon: "fa-cube", 
+                image: "infografias/derivados_futuros_opciones.jpg",
                 infographic: { color: "red", stat: "MEFF", idea: "Contratos Base", points: [
                     { t: "Aislamiento Matemático del Subyacente", d: "Producto artificial cuyo precio emana esclavizado de la cotización real de petróleo o barriles de trigo tangibles subyacentes." },
                     { t: "Coberturas (Hedging)", d: "Usadas originalmente no para hacerse millonarios locos, sino por granjeros que deseaban bloquear de antemano ventas de café en invierno impidiendo la pérdida mortal en primavera." },
@@ -230,6 +236,7 @@ const curriculumData = [
             },
             { 
                 title: "Estructura Global CME", file: "uned_19_CME_contratos.pdf", icon: "fa-globe", 
+                image: "infografias/futuros_financieros.jpg",
                 infographic: { color: "indigo", stat: "CME", idea: "El Coloso de Chicago", points: [
                     { t: "Chicago Mercantile Exchange Hub", d: "El coloso del medioeste americano que lidera el brutal volumen mundial de negociantes diurnos, normalizando mundialmente la intermediación institucional de coberturas agrícolas y materias tangibles físicas." },
                     { t: "Estandarización de Intermediario", d: "Nadie incumple con las normas. La Cámara de Compensación extingue violentamente la opción remota de que el perdedor evada la deuda porque es el propio contrato central ciego quien exige solvencia permanente y fianza cada mañana." },
@@ -246,6 +253,7 @@ const curriculumData = [
         lessons: [
             { 
                 title: "Guía General IRPF", file: "uned_20_Fiscalidad.pdf", icon: "fa-file-signature", 
+                image: "infografias/fiscalidad_irpf.jpg",
                 infographic: { color: "blue", stat: "IRPF", idea: "Hacienda Inversora", points: [
                     { t: "Tramos Inquisitivos del Ahorro", d: "Las ganancias en fondos e ingresos puros en Europa se asocian en sub-tramos que suelen abarcar desde casi un 19% al 28% castigando porcentualmente exponencial la destreza superlativa acumulativa final al contribuyente." },
                     { t: "Rendimientos de Capital vs Alteraciones", d: "Fiscalmente el dinero no es idéntico de clasificar cuando la empresa recompensa pasivamente un cupón recurrente a cuando tú proactivamente vendes tu silla ganando mil dólares en segundos sobre el parqué directo." },
