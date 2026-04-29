@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAparaseniors | Tu almacén de conocimiento sobre Inteligencia Artificial</title>
+    <meta name="description" content="La IA a tu alcance. Guías, PDFs, novedades y tutoriales para hacer accesible la Inteligencia Artificial.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="IAparaseniors Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                <li><a href="#videos" class="nav-link">Vídeos</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Javier</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+        <div id="particles-container"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="label-top animated-element delay-1">✨ La IA a tu alcance</span>
+                <h1 class="hero-title animated-element delay-2">Domina la <span class="glow-text">Inteligencia Artificial</span></h1>
+                <p class="hero-subtitle animated-element delay-3">Tu almacén de conocimiento Premium. Explicamos conceptos complejos para que sean accesibles a usuarios interesados en aprender y aplicarlos.</p>
+                <div class="hero-ctas animated-element delay-4">
+                    <a href="#recursos" class="btn-primary glow-primary">Explorar Recursos</a>
+                    <a href="#videos" class="btn-secondary">Ver Videotutoriales</a>
+                </div>
+            </div>
+            <div class="hero-visual animated-element delay-5">
+                <div class="sphere">
+                    <div class="sphere-inner"></div>
+                    <!-- Extraemos y usamos la imagen que el usuario pidió conservar -->
+                    <img src="images/clase_seniors.jpg" alt="Aula de alumnos Seniors de Inteligencia Artificial" class="hero-image photo-hero float-animation">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SOCIAL PROOF / METRICS -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <h3 class="counter" data-target="100">0</h3><span>+</span>
+                    <p>Recursos Formativos</p>
+                </div>
+                <div class="metric-item">
+                    <h3 class="counter" data-target="6">0</h3>
+                    <p>Charlas Impartidas</p>
+                </div>
+                <div class="metric-item">
+                    <h3 class="counter" data-target="500">0</h3><span>+</span>
+                    <p>Horas de Investigación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS / CURSOS (FLIP CARDS) -->
+    <section class="services" id="recursos">
+        <div class="container">
+            <h2 class="section-title">Explora Nuestros <span class="glow-text">Recursos</span></h2>
+            
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front glass-card">
+                            <div class="service-icon icon-3d">📚</div>
+                            <h3 class="service-title-front">Documentación de Soporte</h3>
+                            <p class="service-excerpt">Guías, PDFs, y resúmenes de los conceptos clave.</p>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Descargas Directas</h3>
+                            <p class="service-description">Accede a presentaciones sobre NotebookLM de Google, y las últimas charlas de Febrero 2026, Septiembre y Junio 2025.</p>
+                            <div class="service-features">
+                                <a href="https://www.iaparaseniors.org/assets/pdfs/NotebookLM_El_Dominio_del_Conocimiento_2026.pdf" target="_blank" class="feature-tag">PDF NotebookLM</a>
+                                <a href="https://docs.google.com/presentation/d/1NKy0fuGh7gcLV3ySYSDzCnHQKn_0NyKR/edit" target="_blank" class="feature-tag">PPT Charla</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front glass-card">
+                            <div class="service-icon icon-3d">⚡</div>
+                            <h3 class="service-title-front">Novedades y Noticias</h3>
+                            <p class="service-excerpt">Lo último del mundo de la IA.</p>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Actualizaciones</h3>
+                            <p class="service-description">Contenido y anuncios recientes sobre herramientas como Perplexity, Google AI Studio y más novedades mensuales.</p>
+                            <div class="service-features">
+                                <a href="https://www.perplexity.ai/comet" target="_blank" class="feature-tag">Perplexity Comet</a>
+                                <a href="https://ai.studio/apps/drive/17Lf4AoawoFX6zRJxR5bBIKxpiOOmOVoT" target="_blank" class="feature-tag">Google AI Studio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card-flip">
+                    <div class="service-card-inner">
+                        <div class="service-card-front glass-card">
+                            <div class="service-icon icon-3d">🗺️</div>
+                            <h3 class="service-title-front">Itinerario: De Caos a Claridad</h3>
+                            <p class="service-excerpt">Aprende los modelos paso a paso.</p>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <h3 class="service-title-back">Ruta de Formación</h3>
+                            <p class="service-description">Si sigues este itinerario explorando estos recursos, tendrás una nueva visión acerca de los Modelos y herramientas más usuales de IA.</p>
+                            <div class="service-features">
+                                <a href="https://www.iaparaseniors.org/assets/pdfs/Caos_a_Claridad.pdf" target="_blank" class="feature-tag">Guía Caos a Claridad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEOS DE APOYO -->
+    <section class="videos" id="videos">
+        <div class="container">
+            <h2 class="section-title">Videos de <span class="glow-text">Apoyo</span></h2>
+            <p class="section-subtitle">Una colección seleccionada de tutoriales y charlas que explican visualmente los temas más complejos de la IA.</p>
+            
+            <div class="videos-grid">
+                <div class="video-card glass-card">
+                    <iframe src="https://www.youtube.com/embed/sO3CgNvPBRI" title="Novedades IA Enero 2026" frameborder="0" allowfullscreen></iframe>
+                    <h3>Novedades IA Enero 2026</h3>
+                    <p>Una visión actualizada de las herramientas y tendencias más recientes.</p>
+                </div>
+                <div class="video-card glass-card">
+                    <iframe src="https://www.youtube.com/embed/YIo7gI87WEM" title="¿Qué es la IA?" frameborder="0" allowfullscreen></iframe>
+                    <h3>¿Qué es la IA?</h3>
+                    <p>Conceptos fundamentales para entender y dominar la tecnología.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section class="about" id="sobre-mi">
+        <div class="container about-grid">
+            <div class="about-visual glass-card glow-primary">
+                <img src="images/logo.png" alt="IAparatodos" class="about-logo">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Acerca de <span class="glow-text">Javier</span></h2>
+                <p>Entusiasta en constante formación en el ámbito de la Inteligencia Artificial, enfocado en cómo estas tecnologías pueden aplicarse de manera práctica y ética.</p>
+                <p>En el proyecto <strong>"IAparatodos"</strong> intento combinar la capacidad de sintetizar contenidos, con la de explicar conceptos complejos, para que éstos sean accesibles a usuarios interesados en aprender y usar la IA.</p>
+                
+                <h4 class="training-title mt-4">Formación Destacada:</h4>
+                <ul class="training-list">
+                    <li>🚀 Curso Experto en Gemini (Academia Artificial)</li>
+                    <li>🎓 Iniciación al Desarrollo con IA (Big School)</li>
+                    <li>🎥 IA en el Audiovisual (RTVE Haz)</li>
+                </ul>
+                <a href="https://www.iaparaseniors.org/cv/cv-javier-rodriguez.html" target="_blank" class="btn-secondary mt-4">Ver Currículum Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-final">
+        <div class="container text-center">
+            <h2 class="cta-title">¿Listo para aplicar la IA en tu día a día?</h2>
+            <p class="cta-subtitle">Empieza explorando nuestra documentación gratuita y sube de nivel.</p>
+            <a href="#recursos" class="btn-primary glow-primary pulse-animation">Descargar Guías</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="Logo IAparaseniors" class="footer-logo">
+                <p>IAparatodos: Sintetizando la complejidad del futuro.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Legal & Contacto</h4>
+                <ul>
+                    <li><a href="mailto:javier@iaparaseniors.org">javier@iaparaseniors.org</a></li>
+                    <li><a href="https://www.iaparaseniors.org/assets/pdfs/AVISO%20LEGAL%20Y%20PROPIEDAD%20INTELECTUAL.pdf">Aviso Legal y Propiedad Intelectual</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>© 2025 IAparatodos - Todos los derechos reservados. Dominio: iaparaseniors.org</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
