@@ -388,6 +388,17 @@ const curriculumData = [
                         { t: "Riesgo Sistemático vs Específico", d: "El riesgo específico (de una empresa concreta) se elimina diversificando en 15-20 valores. El riesgo sistemático (crisis global, tipos de interés) no se puede diversificar y es el precio mínimo por invertir." }
                     ]
                 }
+            },
+            {
+                title: "Resumen: Fondos y ETF", file: "Resumen_Fondos_ETF", icon: "fa-file-signature",
+                image: null,
+                infographic: {
+                    color: "yellow", stat: "Sum", idea: "Conceptos Clave", points: [
+                        { t: "Vehículos de Inversión Colectiva", d: "Resumen de la importancia de los fondos como herramienta de diversificación y gestión profesional para el inversor minorista." },
+                        { t: "Fondos vs. ETF", d: "Comparativa final: los fondos destacan por su ventaja fiscal en traspasos; los ETF por su flexibilidad operativa y menores costes." },
+                        { t: "Construcción de Carteras", d: "Recordatorio sobre el Asset Allocation como motor de rentabilidad y la diversificación para eliminar el riesgo específico." }
+                    ]
+                }
             }
         ]
     }
