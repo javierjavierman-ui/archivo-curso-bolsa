@@ -390,13 +390,13 @@ const curriculumData = [
                 }
             },
             {
-                title: "Resumen: Fondos y ETF", file: "Resumen_Fondos_ETF", icon: "fa-file-signature",
+                title: "Cartografía Financiera Moderna", file: "Modern_Financial_Cartography.pdf", icon: "fa-map-location-dot",
                 image: null,
                 infographic: {
-                    color: "yellow", stat: "Sum", idea: "Conceptos Clave", points: [
-                        { t: "Vehículos de Inversión Colectiva", d: "Resumen de la importancia de los fondos como herramienta de diversificación y gestión profesional para el inversor minorista." },
-                        { t: "Fondos vs. ETF", d: "Comparativa final: los fondos destacan por su ventaja fiscal en traspasos; los ETF por su flexibilidad operativa y menores costes." },
-                        { t: "Construcción de Carteras", d: "Recordatorio sobre el Asset Allocation como motor de rentabilidad y la diversificación para eliminar el riesgo específico." }
+                    color: "orange", stat: "Map", idea: "Visión Global", points: [
+                        { t: "Mapa de Activos Globales", d: "Análisis de la distribución estratégica entre renta fija, variable y activos alternativos en el escenario financiero actual." },
+                        { t: "Correlaciones y Fronteras", d: "Visualización de cómo interactúan los activos para optimizar la frontera eficiente y maximizar el binomio rentabilidad/riesgo." },
+                        { t: "Navegación de Riesgos", d: "Uso de herramientas de cartografía financiera para identificar y mitigar el riesgo sistemático en carteras internacionales." }
                     ]
                 }
             }
